@@ -1,6 +1,8 @@
-/* .small-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: space-evenly;
-} */
+.aside-card-container img {
+    width: 100%;
+}
+
+.card-img-overlay {
+    max-height: 50%;
+    background-color: rgb(25,25,25,0.5);
+}

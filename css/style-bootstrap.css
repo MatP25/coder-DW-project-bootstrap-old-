@@ -112,6 +112,7 @@
     transform: scale(1);
     transition: 0.5s;
 }
+/* GALLERY end */
 
 /* ASIDE st */
 /* imgs in servicios.html */
@@ -207,6 +208,15 @@
     font-size: 32px;
 }
 
+.list-group-item {
+    transition: 0.1s;
+}
+
+.list-group-item:hover {
+    transform: scale(1.1, 1.1);
+    text-shadow: 1px 1px 2px #353434;
+}
+
 .map-container {
     width: 100%;
     overflow: hidden;
@@ -220,6 +230,8 @@
 }
 /* FOOTER end */
 
+
+/* MEDIA QUERIES */
 @media screen and (max-width:576px) {
     .img-container-servicios {
         flex-basis: 90%;
